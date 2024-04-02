@@ -1,50 +1,50 @@
-// const add = function(x, y) {
-// 	return x + y
-// };
+const add = function(x, y) {
+	return x + y
+};
 
-// const subtract = function(x,y ) {
-// 	return x - y
-// };
+const subtract = function(x,y ) {
+	return x - y
+};
 
-// const sum = function(arr) {
-// 	// let sumEquate = 0;
-//   // for (let i = 0; i < arr.length; i++) {
-//   //   sumEquate += arr[i];
-//   // }
+const sum = function(arr) {
+	// let sumEquate = 0;
+  // for (let i = 0; i < arr.length; i++) {
+  //   sumEquate += arr[i];
+  // }
 
-//   // return sumEquate;
+  // return sumEquate;
 
-//   return arr.reduce((a, b) => a + b, 0);
-// };
+  return arr.reduce((a, b) => a + b, 0);
+};
 
-// const multiply = function(arr) {
+const multiply = function(arr) {
 
-//   return arr.reduce( (a, b) => a * b, 1)
-// };
+  return arr.reduce( (a, b) => a * b, 1)
+};
 
-// const power = function(base, exponent) {
+const power = function(base, exponent) {
 
-//   return Math.pow(base, exponent)
+  return Math.pow(base, exponent)
 	
-// };
+};
 
-// const factorial = function(num) {
+const factorial = function(num) {
 
 
-//   let factorialProduct = 1
-//   // num = 5 
-//   // num * num - 1
-//   while (num > 0) {
+  let factorialProduct = 1
+  // num = 5 
+  // num * num - 1
+  while (num > 0) {
 
-//     factorialProduct*= num
+    factorialProduct*= num
 
-//     num--
-//   }
+    num--
+  }
 
-//   return factorialProduct
+  return factorialProduct
   
 	
-// };
+};
 
 // Do not edit below this line
 module.exports = {
